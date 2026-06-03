@@ -13,4 +13,6 @@ total_horas = input("Digite a média de horas estudada por dia: ")
 curso = input("Digite o título do curso desejado: ")
 
 # 5. Imprima na tela uma frase informando o nome da estudante, o total_dias dedicados aos estudos, o total horas semanais e o curso.
-print(f"{nome} dedicou {total_dias} dias na semana, estudando {total_horas} horas por dia, para o curso de {curso}.")
+print(
+    f"{nome} dedicou {total_dias} dias na semana, estudando {total_horas} horas por dia, para o curso de {curso}."
+)
